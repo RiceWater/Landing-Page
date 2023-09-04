@@ -10,6 +10,25 @@ footer{
     color: #f9faf8
 }
 
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
 footer{
     display: flex;
     align-items: center;
