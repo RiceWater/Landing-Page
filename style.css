@@ -2,32 +2,48 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    
+    display: flex;
+    flex-direction: column;
 }
 
-header,
+.header,
 footer{
     background-color: #1f2937;
     color: #f9faf8
 }
 
 
-header{
+.header{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+}
+
+.header img{
+    display: flex;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+}
+
+.header-links{
+    display: flex;
 }
 
 ul{
-    list-style: none;
-    padding: 0;
     margin: 0;
+    list-style-type: none;
+
+    display: flex;
+    gap: 64px;
 }
 
 a{
     text-decoration: none;
-    color: inherit;
+    color: inherit
 }
-
-
 
 footer{
     display: flex;
