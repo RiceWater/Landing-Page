@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+footer{
+    background-color: #1f2937;
+    color: #f9faf8
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
