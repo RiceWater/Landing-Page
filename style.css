@@ -13,7 +13,6 @@ footer {
     color: #f9faf8
 }
 
-
 .header {
     display: flex;
     justify-content: space-around;
@@ -108,6 +107,16 @@ a {
     border-radius: 10px;
     outline: none;
 }
+
+
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 footer {
     display: flex;
