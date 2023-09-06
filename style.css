@@ -63,7 +63,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    padding: 64px;
+    padding: 128px;
     background-color: #1f2937;
 }
 
@@ -114,6 +114,41 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 64px 128px 128px;
+    margin-bottom: 64px;
+}
+
+.section-2 h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.card img{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #1f2937;
+    border-radius: 10px;
+}
+
+.card{
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card .text{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 16px;
 }
 
 
