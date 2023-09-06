@@ -8,3 +8,4 @@ This is a project from TOP
 - https://en.wikipedia.org/wiki/Markiplier#/media/File:Markiplier_by_Gage_Skidmore.jpg
 - https://virtualyoutuber.fandom.com/wiki/Gawr_Gura?file=Gawr_Gura_Portrait.png
 - https://unsplash.com/photos/voUYQjTFNWw
+- https://progamingcrew.com/blogs/instagram-gaming-page-help/gamer-quotes-for-instagram 

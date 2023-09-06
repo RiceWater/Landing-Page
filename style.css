@@ -68,7 +68,6 @@ a {
 }
 
 .hero img {
-    /* flex-shrink: 0; */
     height: auto;
     max-width: 50%;
 }
@@ -109,49 +108,119 @@ a {
 }
 
 
-
-.section-2{
+.section-2,
+.section-3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 64px 128px 128px;
-    margin-bottom: 64px;
+    padding: 64px 120px 184px;
+    gap: 16px;
 }
 
-.section-2 h1{
+.section-2 {
+    background-color: white;
+}
+
+.section-2 h1 {
     font-size: 36px;
     font-weight: bold;
 }
 
-.card-container{
+.card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
 }
 
-.card img{
+.card img {
     height: 200px;
     width: 200px;
     border: 5px solid #1f2937;
     border-radius: 10px;
 }
 
-.card{
+.card {
     margin: 24px;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.card .text{
-    padding: 0;
-    margin: 0;
+.card .text {
     text-align: center;
     margin-bottom: 16px;
 }
 
 
+
+.section-3{
+    padding: 256px 128px;
+    background-color: #e5e7eb;
+
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+}
+
+.quote-container .author{
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+.section-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 32px;
+}
+
+.section-action .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+    padding: 64px;
+    background-color: #3882f6;
+    border-radius: 10px;
+
+    width: 50%;
+}
+
+.section-action .card .content{
+    display: flex;
+    flex-direction: column;
+
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+.section-action .card .title{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.section-action button{
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#f9faf8;
+    background-color: #3882f6;
+    border: 3px solid #f9faf8;
+    border-radius: 10px;
+    
+}
 
 footer {
     display: flex;
