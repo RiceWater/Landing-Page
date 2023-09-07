@@ -31,8 +31,6 @@ footer {
 }
 
 .header img {
-    display: flex;
-    flex-shrink: 0;
     width: 48px;
     height: 48px;
 }
@@ -69,7 +67,7 @@ a {
 
 .hero img {
     height: auto;
-    max-width: 50%;
+    max-width: 100%;
 }
 
 .left-hero {
@@ -92,8 +90,6 @@ a {
 
 .left-hero .text {
     color: #e5e7eb;
-    margin: 0;
-    padding: 0;
 }
 
 .button-container button {
@@ -113,17 +109,18 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 64px 120px 184px;
     gap: 16px;
 }
 
 .section-2 {
+    padding: 64px 120px 184px;
     background-color: white;
 }
 
 .section-2 h1 {
     font-size: 36px;
     font-weight: bold;
+    text-align: center;
 }
 
 .card-container {
@@ -133,18 +130,19 @@ a {
     width: 100%;
 }
 
-.card img {
-    height: 200px;
-    width: 200px;
-    border: 5px solid #1f2937;
-    border-radius: 10px;
-}
-
 .card {
     margin: 24px;
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.card img {
+    flex-shrink: 0;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #1f2937;
+    border-radius: 10px;
 }
 
 .card .text {
@@ -191,7 +189,7 @@ a {
     justify-content: space-around;
     align-items: center;
     gap: 32px;
-    padding: 64px;
+    padding: 48px 64px;
     background-color: #3882f6;
     border-radius: 10px;
 
